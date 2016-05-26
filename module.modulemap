@@ -1,0 +1,15 @@
+//
+//  module.modulemap
+//  CZabbix
+//
+//  Created by Matthieu Barthélemy on 5/11/16.
+//
+//
+
+module CZabbix [system] {
+    //umbrella header "module.h"
+    //header "/usr/local/src/zabbix-3.0.2/include/module.h"
+    //link "CZabbix-0.21.0"
+    //export *
+    header "module.h"
+}

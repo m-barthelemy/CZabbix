@@ -26,6 +26,10 @@
 #define ZBX_MODULE_FAIL	-1
 
 #define ZBX_MODULE_API_VERSION_ONE	1
+/* Zabbix 3.2 */
+#ifndef ZBX_MODULE_API_VERSION
+#       define ZBX_MODULE_API_VERSION   ZBX_MODULE_API_VERSION_ONE
+#endif
 
 #define get_rparam(request, num)	(request->nparam > num ? request->params[num] : NULL)
 
